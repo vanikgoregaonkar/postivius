@@ -9,7 +9,7 @@ const App = () => {
 
       {/* NAVBAR */}
       <div className="w-full flex flex-col lg:flex-row items-center justify-between px-6 md:px-16 py-6 gap-6">
-        <h1 className="text-3xl md:text-4xl font-[Zen_dots]">Positivuss</h1>
+        <h1 className="text-3xl md:text-4xl font-[Zen_dots]">Positivus</h1>
 
         <div className="flex flex-wrap justify-center gap-6 text-sm md:text-base font-[Zen_dots]">
           <h1>About us</h1>
