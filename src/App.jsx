@@ -9,9 +9,9 @@ const App = () => {
 
       {/* NAVBAR */}
       <div className="w-full flex flex-col lg:flex-row items-center justify-between px-6 md:px-16 py-6 gap-6">
-        <h1 className="text-3xl md:text-4xl font-[Zen_dots]">Positivuss</h1>
+        <h1 className="text-3xl md:text-4xl font-[Zen_dots]">Positivus</h1>
 
-        <div className="flex flex-wrap justify-center gap-6 text-sm md:text-base font-[Zen_dots]">
+        <div className="flex flex-wrap justify-center gap-6 text-sm md:text-base font-[Zen_dots] cursor-pointer">
           <h1>About us</h1>
           <h1>Services</h1>
           <h1>Use Cases</h1>
@@ -19,9 +19,12 @@ const App = () => {
           <h1>Blog</h1>
         </div>
 
-        <button className="border border-black rounded-2xl px-6 py-3 font-[Zen_dots] hover:scale-105 transition">
-          Request a Quote
-        </button>
+             <button
+            className="relative z-50 border border-black rounded-2xl px-6 py-3 font-[Zen_dots]
+                       hover:scale-105 active:scale-95 transition cursor-pointer"
+          >
+            Request a Quote
+          </button>
       </div>
 
       {/* HERO */}
@@ -36,9 +39,12 @@ const App = () => {
             online through SEO, PPC, social media marketing, and content creation.
           </p>
 
-          <button className="bg-black text-white px-8 py-4 rounded-3xl font-[Zen_dots] hover:scale-105 transition">
-            Click here to build yours →
-          </button>
+               <button
+              className="relative z-50 bg-black text-white px-8 py-4 rounded-3xl font-[Zen_dots]
+                         hover:scale-105 active:scale-95 transition cursor-pointer"
+            >
+              Click here to build yours →
+            </button>
         </div>
 
         <div className="flex-1">
@@ -111,7 +117,10 @@ const App = () => {
             Ready to grow your business online? Partner with us to create
             powerful digital experiences that drive real results.
           </p>
-          <button className="bg-black text-white px-10 py-4 rounded-2xl hover:scale-105 transition">
+          <button
+            className="relative z-50 bg-black text-white px-10 py-4 rounded-2xl
+                       hover:scale-105 active:scale-95 transition cursor-pointer"
+          >
             Get in Touch
           </button>
         </div>
